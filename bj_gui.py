@@ -1,5 +1,4 @@
 import tkinter as tk
-from typing import Counter
 
 WINDOW_HEIGHT = 720
 WINDOW_WIDTH = 1280
@@ -21,7 +20,6 @@ window.geometry('{}x{}'.format(WINDOW_WIDTH, WINDOW_HEIGHT))
 
 card_frame = tk.Frame(window, background=BACKGROUND)
 card_frame.pack()
-
 
 # dealer canvas
 dealer_canvas = tk.Canvas(card_frame, background='blue', width=WINDOW_WIDTH/1.5, height=CARD_HEIGHT/2)
