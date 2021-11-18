@@ -47,6 +47,7 @@ def more():
 
 button = tk.Button(window, text="Hit", command=more).pack()
 
+
 window.mainloop()
 
 
